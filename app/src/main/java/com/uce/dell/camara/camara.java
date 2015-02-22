@@ -17,6 +17,8 @@ public class camara extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camara);
 
+
+        //Primer cambio en el programa cámara
         Button pic = (Button)findViewById(R.id.btncam);
         pic.setOnClickListener(new View.OnClickListener() {
             @Override
